@@ -10,7 +10,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aa24b8a-98a5-4a6c-83d5-15ab1577f063" name="Default Changelist" comment="" />
+    <list default="true" id="7aa24b8a-98a5-4a6c-83d5-15ab1577f063" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/pi4j_core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/application/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/application/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/aau/ase/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/aau/ase/application/Application.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,11 +53,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/pi4j/pi4j-gpio-extension.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Klaus\Documents\GitHub\RaspberryPi\libs\pi4j" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Embedded Linux JVM.Unnamed">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.aau.ase.application.Application" />
       <module name="RaspberryPi.main" />
@@ -55,8 +83,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RaspberryPi" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Run as an Embedded Java application" factoryName="Embedded Linux JVM" nameIsGenerated="true">
+      <option name="classesDirectory" />
+      <option name="hostname" value="raspberrypi" />
+      <option name="keyPath" value="" />
+      <option name="password" value="raspberry" />
+      <option name="port" value="1234" />
+      <option name="programArguments" value="" />
+      <option name="runAsRoot" value="false" />
+      <option name="sshPort" value="22" />
+      <option name="username" value="pi" />
+      <option name="usingKey" value="false" />
+      <option name="vmParameters" value="" />
+      <option name="moduleName" value="RaspberryPi.main" />
+      <option name="mainclass" value="at.aau.ase.application.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Run as an Embedded Java application" factoryName="Embedded Linux JVM">
+      <option name="classesDirectory" />
+      <option name="hostname" value="raspberrypi" />
+      <option name="keyPath" value="" />
+      <option name="password" value="raspberry" />
+      <option name="port" value="1234" />
+      <option name="programArguments" value="" />
+      <option name="runAsRoot" value="false" />
+      <option name="sshPort" value="22" />
+      <option name="username" value="pi" />
+      <option name="usingKey" value="false" />
+      <option name="vmParameters" value="" />
+      <option name="moduleName" value="RaspberryPi.main" />
+      <option name="mainclass" value="at.aau.ase.application.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Embedded Linux JVM.Unnamed" />
+      <item itemvalue="Gradle.RaspberryPi" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RaspberryPi" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -84,11 +171,64 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="760" y="274" key="#Project_Structure" timestamp="1608397320567">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1608397320567" />
+    <state x="760" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611177705139">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1611177705139" />
+    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1611179334184">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1611179334184" />
+    <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611082747060">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1611082747060" />
+    <state x="920" y="624" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610629435077">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="920" y="624" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1610629435077" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610629471157">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1610629471157" />
+    <state x="1007" y="512" key="FileChooserDialogImpl" timestamp="1611182030074">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1007" y="512" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1611182030074" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1611182136025">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1611182136025" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1611182136025">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1611182136025" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1611182136025">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1611182136025" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1611182136025">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1611182136025" />
+    <state x="781" y="345" key="SettingsEditor" timestamp="1611182039889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1611182039889" />
+    <state x="1005" y="662" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611181863047">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1005" y="662" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1400@0.0.2560.1400" timestamp="1611181863047" />
+    <state x="662" y="310" key="new project wizard" timestamp="1611082323806">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="662" y="310" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1611082323806" />
   </component>
 </project>
