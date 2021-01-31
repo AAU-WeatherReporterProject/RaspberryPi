@@ -1,6 +1,7 @@
 package at.aau.ase.weatherapp.sensors;
 
 import at.aau.ase.weatherapp.sensors.impl.SensorManager;
+import org.json.simple.JSONObject;
 
 import java.io.IOException;
 
@@ -9,8 +10,8 @@ public abstract class Sensor extends SensorManager {
     private String id = "";
     private String description = "";
 
-    public abstract void init();
-    public abstract String getData() throws SensorException;
+    public abstract void init() throws SensorException;
+    public abstract JSONObject getData() throws SensorException;
     public abstract boolean destroy();
 
     protected Sensor(String id, String description) throws SensorException
@@ -20,7 +21,7 @@ public abstract class Sensor extends SensorManager {
         if(!addSensor(this)){
             throw new SensorException("Sensor with ID: " + id + " already exists!");
         }
-        init();
+        //init();
     }
 
     protected Sensor(String id) throws SensorException
@@ -30,7 +31,7 @@ public abstract class Sensor extends SensorManager {
         if(!addSensor(this)){
             throw new SensorException("Sensor with ID: " + id + " already exists!");
         }
-        init();
+        //init();
     }
 
     public String getId()

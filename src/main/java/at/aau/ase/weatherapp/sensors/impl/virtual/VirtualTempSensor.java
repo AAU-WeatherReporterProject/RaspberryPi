@@ -1,7 +1,8 @@
-package at.aau.ase.weatherapp.sensors.impl;
+package at.aau.ase.weatherapp.sensors.impl.virtual;
 
 import at.aau.ase.weatherapp.sensors.Sensor;
 import at.aau.ase.weatherapp.sensors.SensorException;
+import org.json.simple.JSONObject;
 
 public class VirtualTempSensor extends Sensor {
 
@@ -12,12 +13,12 @@ public class VirtualTempSensor extends Sensor {
     }
 
     @Override
-    public void init() {
+    public void init() throws SensorException{
 
     }
 
     @Override
-    public String getData() throws SensorException {
+    public JSONObject getData() throws SensorException {
         return null;
     }
 

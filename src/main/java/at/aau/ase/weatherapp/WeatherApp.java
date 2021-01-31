@@ -1,6 +1,7 @@
 package at.aau.ase.weatherapp;
 
 import at.aau.ase.weatherapp.sensors.Sensor;
+import at.aau.ase.weatherapp.sensors.SensorException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,16 +10,20 @@ public class WeatherApp {
 
     private String instanceID;
     private List<Sensor> sensors = new ArrayList<>();
+    private int sensorPollIntervalMS = 0;
+    private WeatherAppWorker worker;
 
-    public WeatherApp(String instanceID)
+    public WeatherApp(String instanceID, int sensorPollIntervalMS)
     {
         this.instanceID = instanceID;
+        this.sensorPollIntervalMS = sensorPollIntervalMS;
     }
 
-    public WeatherApp(String instanceID, List<Sensor> sensors)
+    public WeatherApp(String instanceID, List<Sensor> sensors, int sensorPollIntervalMS)
     {
         this.instanceID = instanceID;
         this.sensors = sensors;
+        this.sensorPollIntervalMS = sensorPollIntervalMS;
     }
 
     public List<Sensor> getSensors()
@@ -82,7 +87,35 @@ public class WeatherApp {
         return false;
     }
 
+    public int getSensorPollInterval()
+    {
+        return sensorPollIntervalMS;
+    }
 
+    public boolean start()
+    {
+        for(Sensor s:sensors)
+        {
+            try {
+                s.init();
+            } catch (SensorException e) {
+                e.printStackTrace();
+                return false;
+            }
+        }
+        worker = new WeatherAppWorker(this);
+        return worker.start();
+    }
+
+    public boolean isRunning()
+    {
+        return worker.isRunning();
+    }
+
+    public boolean stop()
+    {
+        return worker.stop();
+    }
 
 
 }

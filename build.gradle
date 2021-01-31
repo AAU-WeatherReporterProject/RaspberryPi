@@ -13,13 +13,27 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    //https://repo1.maven.org/maven2/
+    /*maven {
+        url "https://repo1.maven.org/maven2/"
+    }*/
 }
 
 dependencies {
     // https://mvnrepository.com/artifact/com.pi4j/pi4j-parent
     //compile group: 'com.pi4j', name: 'pi4j-parent', version: '1.2', ext: 'pom'
     //compile 'com.pi4j:pi4j-parent:1.2'
-    //does not work .....
+    /*compile files('libs/pi4j/pi4j-core.jar')
+    compile files('libs/pi4j/pi4j-core-javadoc.jar')
+    compile files('libs/pi4j/pi4j-core-sources.jar')
+    compile files('libs/pi4j/pi4j-device.jar')
+    compile files('libs/pi4j/pi4j-device-javadoc.jar')
+    compile files('libs/pi4j/pi4j-device-sources.jar')
+    compile files('libs/pi4j/pi4j-gpio-extension.jar')
+    compile files('libs/pi4j/pi4j-gpio-extension-javadoc.jar')
+    compile files('libs/pi4j/pi4j-gpio-extension-sources.jar')*/
+    compile fileTree(dir: 'libs/pi4j', include: '*.jar')
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
