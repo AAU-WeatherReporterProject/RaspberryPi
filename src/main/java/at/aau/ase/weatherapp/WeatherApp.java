@@ -1,5 +1,6 @@
 package at.aau.ase.weatherapp;
 
+import at.aau.ase.weatherapp.com.WeatherServerConnection;
 import at.aau.ase.weatherapp.sensors.Sensor;
 import at.aau.ase.weatherapp.sensors.SensorException;
 
@@ -13,17 +14,19 @@ public class WeatherApp {
     private int sensorPollIntervalMS = 0;
     private WeatherAppWorker worker;
 
-    public WeatherApp(String instanceID, int sensorPollIntervalMS)
+    public WeatherApp(String instanceID, int sensorPollIntervalMS, WeatherServerConnection com)
     {
         this.instanceID = instanceID;
         this.sensorPollIntervalMS = sensorPollIntervalMS;
+        worker = new WeatherAppWorker(this,com);
     }
 
-    public WeatherApp(String instanceID, List<Sensor> sensors, int sensorPollIntervalMS)
+    public WeatherApp(String instanceID, List<Sensor> sensors, int sensorPollIntervalMS, WeatherServerConnection com)
     {
         this.instanceID = instanceID;
         this.sensors = sensors;
         this.sensorPollIntervalMS = sensorPollIntervalMS;
+        worker = new WeatherAppWorker(this,com);
     }
 
     public List<Sensor> getSensors()
@@ -103,7 +106,7 @@ public class WeatherApp {
                 return false;
             }
         }
-        worker = new WeatherAppWorker(this);
+
         return worker.start();
     }
 

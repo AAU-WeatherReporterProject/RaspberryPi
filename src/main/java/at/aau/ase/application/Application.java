@@ -5,6 +5,7 @@ import com.pi4j.io.w1.W1Master;
 import com.pi4j.temperature.TemperatureScale;
 */
 import at.aau.ase.weatherapp.WeatherApp;
+import at.aau.ase.weatherapp.com.WeatherServerConnectionDefault;
 import at.aau.ase.weatherapp.sensors.Sensor;
 import at.aau.ase.weatherapp.sensors.SensorException;
 import at.aau.ase.weatherapp.sensors.impl.SensorManager;
@@ -15,49 +16,19 @@ import com.pi4j.io.i2c.I2CBus;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import java.io.IOException;
+import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Application {
 
+    private static final String URL = "http://192.168.178.21:8098/api/v1/ingest";
+
     public static void main(String[] args){
-        /*
-        {
-    "metadata": {
-        "key": "TestLocation"
-    },
-    "measurements": [
-        {
-            "temperature": "12.11",
-             "humidity":"%"
-            "pressure":"hp"
-            "skyState": "2"
-        }
-    ]
-}
-         */
-/*
-        JSONObject obj = new JSONObject();
-        obj.put("id", "Sensor1");
-        obj.put("humidity", 50.4f);
-        obj.put("temperature", 23.4f);
-        obj.put("pressure", 1013.25f);
 
-        JSONObject obj2 = new JSONObject();
-        obj2.put("key","testlocation");
-
-        JSONObject obj3 = new JSONObject();
-        obj3.put("metadata", obj2);
-
-        JSONArray jsonArray = new JSONArray();
-        jsonArray.add(obj);
-
-        obj3.put("measurement",jsonArray);
-
-        System.out.println(obj3.toJSONString());
-        */
 
         //________Create sensors________
         System.out.print("Create sensors... ");
@@ -74,8 +45,9 @@ public class Application {
         System.out.println("Done");
 
         //_______Setup weather app_______
+
         System.out.println("Create weather app... ");
-        WeatherApp wApp = new WeatherApp("WeatherApp_Location1", 1000);
+        WeatherApp wApp = new WeatherApp("WeatherApp_Location1", 2000, new WeatherServerConnectionDefault(URL));
         wApp.addSensors(wAppSensors);
         System.out.println("Done");
 
@@ -93,10 +65,6 @@ public class Application {
 
         }
         wApp.stop();
-
-
-        //______
-
 
 
         System.out.print("Shutting down application... ");

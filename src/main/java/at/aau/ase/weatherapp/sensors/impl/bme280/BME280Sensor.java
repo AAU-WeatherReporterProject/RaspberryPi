@@ -49,9 +49,25 @@ public class BME280Sensor extends Sensor {
         System.out.println("______________________");
         */
         //JSON
+        JSONObject obj = new JSONObject();
+        //obj.put("id", "Sensor1");
 
 
-        return null;
+
+        obj.put("humidity", new String(""+(int)values[1]));
+        obj.put("temperature", new String("" + values[0]));
+        obj.put("pressure", new String("" + values[2]));
+        //just a fake value
+        obj.put("skyState",new String("" + 3));
+
+        /*
+        obj.put("humidity", new String("" + 20));
+        obj.put("temperature", new String("" + 23.4f));
+        obj.put("pressure", new String("" + 900.25f));
+        obj.put("skyState", new String("" + 3));
+        */
+        return obj;
+
     }
 
     @Override
