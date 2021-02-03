@@ -12,6 +12,7 @@ import at.aau.ase.weatherapp.sensors.impl.SensorManager;
 import at.aau.ase.weatherapp.sensors.impl.bme280.BME280Address;
 import at.aau.ase.weatherapp.sensors.impl.bme280.BME280Driver;
 import at.aau.ase.weatherapp.sensors.impl.bme280.BME280Sensor;
+import at.aau.ase.weatherapp.sensors.impl.virtual.VirtualBME280Sensor;
 import com.pi4j.io.i2c.I2CBus;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -36,8 +37,12 @@ public class Application {
         List<Sensor> wAppSensors = new ArrayList<>();
         try {
             //wAppSensors.add(new VirtualTempSensor("Dummy1"));
-            //BME280Sensor sensor = new BME280Sensor(BME280Address.I2C_0x76);
-            wAppSensors.add(new BME280Sensor(BME280Address.I2C_0x76));
+
+            //use this for raspberry pi!
+            //wAppSensors.add(new BME280Sensor(BME280Address.I2C_0x76));
+
+            //use this on your computer
+            wAppSensors.add(new VirtualBME280Sensor("BME280"));
 
         } catch (SensorException e) {
             e.printStackTrace();

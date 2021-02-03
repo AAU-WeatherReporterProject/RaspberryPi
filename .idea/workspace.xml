@@ -19,15 +19,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/application/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/application/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/WeatherApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/WeatherApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/WeatherAppWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/WeatherAppWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/sensors/impl/bme280/BME280Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/sensors/impl/bme280/BME280Sensor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/aau/ase/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/aau/ase/application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/WeatherApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/WeatherApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/WeatherAppWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/WeatherAppWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/sensors/impl/bme280/BME280Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/sensors/impl/bme280/BME280Sensor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../uni/master/semester11/Advanced Software Engineering/project/server/WeatherReporterBackend-main" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -85,7 +78,7 @@
       <recent name="C:\Users\Klaus\Documents\GitHub\RaspberryPi\libs\pi4j" />
     </key>
   </component>
-  <component name="RunManager" selected="Embedded Linux JVM.Unnamed">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.aau.ase.application.Application" />
       <module name="RaspberryPi.main" />
@@ -198,10 +191,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1611775876640" />
-    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1612366748474">
+    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1612372012161">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1612366748474" />
+    <state x="1085" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1612372012161" />
     <state x="1009" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611082747060">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -222,26 +215,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1173" y="305" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1611775857741" />
-    <state x="1031" y="474" key="FileChooserDialogImpl" timestamp="1612298464024">
+    <state x="1031" y="474" key="FileChooserDialogImpl" timestamp="1612372088252">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1031" y="474" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1612298464024" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1612371799357">
+    <state x="1031" y="474" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1612372088252" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1612372237771">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1612371799357" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1612371799357">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1612372237771" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1612372237771">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1612371799357" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1612371799357">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1612372237771" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1612372237770">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1612371799357" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1612371799357">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1612372237770" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1612372237771">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1612371799357" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1612372237771" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1612299911122">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
