@@ -26,7 +26,9 @@ import java.util.Scanner;
 
 public class Application {
 
-    private static final String URL = "http://192.168.178.21:8098/api/v1/ingest";
+    //private static final String URL = "http://192.168.178.21:8098/api/v1/ingest";
+    //private static final String URL = "http://35.157.65.50:8098/api/v1/ingest";
+    private static final String  URL = "http://laubi.at:8098/api/v1/ingest";
 
     public static void main(String[] args){
 
@@ -43,6 +45,7 @@ public class Application {
 
             //use this on your computer
             wAppSensors.add(new VirtualBME280Sensor("BME280"));
+            //wAppSensors.add(new VirtualBME280Sensor("BME280"));
 
         } catch (SensorException e) {
             e.printStackTrace();
@@ -52,7 +55,7 @@ public class Application {
         //_______Setup weather app_______
 
         System.out.println("Create weather app... ");
-        WeatherApp wApp = new WeatherApp("WeatherApp_Location1", 2000, new WeatherServerConnectionDefault(URL));
+        WeatherApp wApp = new WeatherApp("WeatherApp_Location1", 10000, new WeatherServerConnectionDefault(URL));
         wApp.addSensors(wAppSensors);
         System.out.println("Done");
 

@@ -63,7 +63,7 @@ public class WeatherAppWorker implements Runnable{
         while(running)
         {
             JSONObject obj2 = new JSONObject();
-            obj2.put("key","testlocation");
+            obj2.put("key",app.getInstanceID());
 
             JSONObject obj3 = new JSONObject();
             obj3.put("metadata", obj2);

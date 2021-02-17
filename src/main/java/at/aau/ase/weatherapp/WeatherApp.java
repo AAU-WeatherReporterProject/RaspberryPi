@@ -29,6 +29,11 @@ public class WeatherApp {
         worker = new WeatherAppWorker(this,com);
     }
 
+    public String getInstanceID()
+    {
+        return instanceID;
+    }
+
     public List<Sensor> getSensors()
     {
         return sensors;

@@ -15,12 +15,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/application/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/application/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/WeatherApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/WeatherApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/WeatherAppWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/WeatherAppWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/sensors/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/at/aau/ase/weatherapp/sensors/Sensor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/aau/ase/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/aau/ase/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/WeatherApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/WeatherApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/WeatherAppWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/WeatherAppWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/sensors/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/aau/ase/weatherapp/sensors/Sensor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +79,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../uni/master/semester11/Advanced Software Engineering/project/server/WeatherReporterBackend-main" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -78,20 +89,7 @@
       <recent name="C:\Users\Klaus\Documents\GitHub\RaspberryPi\libs\pi4j" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.aau.ase.application.Application" />
-      <module name="RaspberryPi.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.aau.ase.weatherapp.sensors.impl.bme280.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.TestSensorManager">
     <configuration name="RaspberryPi" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -107,6 +105,82 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TEstTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TEstTest.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSensor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TestSensor&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSensorManager" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TestSensorManager&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'RaspberryPi.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="Run as an Embedded Java application" factoryName="Embedded Linux JVM" nameIsGenerated="true">
@@ -146,14 +220,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
       <item itemvalue="Embedded Linux JVM.Unnamed" />
       <item itemvalue="Gradle.RaspberryPi" />
+      <item itemvalue="Gradle.Tests in 'RaspberryPi.test'" />
+      <item itemvalue="Gradle.TEstTest.test" />
+      <item itemvalue="Gradle.TestSensor" />
+      <item itemvalue="Gradle.TestSensorManager" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Gradle.TestSensorManager" />
+        <item itemvalue="Gradle.TestSensor" />
         <item itemvalue="Gradle.RaspberryPi" />
+        <item itemvalue="Gradle.TEstTest.test" />
+        <item itemvalue="Gradle.Tests in 'RaspberryPi.test'" />
       </list>
     </recent_temporary>
   </component>
@@ -183,10 +263,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="760" y="274" key="#Project_Structure" timestamp="1608397320567">
+    <state x="760" y="274" key="#Project_Structure" timestamp="1613338006948">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="760" y="274" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1608397320567" />
+    <state x="760" y="274" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1613338006948" />
+    <state x="989" y="302" key="#TestSensor" timestamp="1613591525457">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="989" y="302" key="#TestSensor/0.0.2560.1400@0.0.2560.1400" timestamp="1613591525457" />
     <state x="760" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611775876640">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -219,22 +303,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1031" y="474" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1612372088252" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1612372237771">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1613593240297">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1612372237771" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1612372237771">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1613593240297" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1613593240297">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1612372237771" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1612372237770">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1613593240297" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1613593240296">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1612372237770" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1612372237771">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1613593240296" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1613593240297">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1612372237771" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1613593240297" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1612299911122">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -251,17 +335,29 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1612299911122" />
-    <state x="781" y="345" key="SettingsEditor" timestamp="1612291687712">
+    <state x="781" y="345" key="SettingsEditor" timestamp="1613591495506">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1612291687712" />
-    <state x="1005" y="662" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611775744457">
+    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1613591495506" />
+    <state x="1005" y="662" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1613590470726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1005" y="662" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1400@0.0.2560.1400" timestamp="1611775744457" />
+    <state x="1005" y="662" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1400@0.0.2560.1400" timestamp="1613590470726" />
+    <state x="987" y="299" width="585" height="801" key="find.popup" timestamp="1613590918497">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="987" y="299" width="585" height="801" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1613590918497" />
     <state x="662" y="310" key="new project wizard" timestamp="1611082323806">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="662" y="310" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1611082323806" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1613591260561">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1613591260561" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1613591256394">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1613591256394" />
   </component>
 </project>

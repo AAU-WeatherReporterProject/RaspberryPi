@@ -26,7 +26,7 @@ public abstract class Sensor extends SensorManager {
 
     protected Sensor(String id) throws SensorException
     {
-        System.out.println("ASDF");
+        //System.out.println("ASDF");
         this.id = id;
         if(!addSensor(this)){
             throw new SensorException("Sensor with ID: " + id + " already exists!");
